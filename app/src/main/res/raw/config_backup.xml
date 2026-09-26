@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration version="1.4.2" environment="staging">
+    <feature-flags>
+        <flag name="enable_remote_telemetry" value="false" />
+        <flag name="enable_cloud_sync" value="false" />
+        <flag name="legacy_auth_fallback" value="true" />
+        <flag name="experimental_fast_dex" value="false" />
+    </feature-flags>
+    <endpoints>
+        <endpoint name="metrics" url="https://metrics.sanjivani-internal.net/v1" />
+        <endpoint name="backup_vault" url="https://vault.sanjivani-internal.net/sync" />
+    </endpoints>
+    <security>
+        <pin-hash algorithm="SHA-256">a3f5c9e2b1d40879654123def09876543210fedcba9876543210abcdef012345</pin-hash>
+        <session-timeout-seconds>3600</session-timeout-seconds>
+    </security>
+</configuration>

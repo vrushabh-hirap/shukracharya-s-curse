@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ashrama_dark_bg"
+    android:padding="24dp">
+
+    <View
+        android:id="@+id/v_seal_glow"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/bg_glow_oval"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_om_seal"
+        app:layout_constraintEnd_toEndOf="@+id/iv_om_seal"
+        app:layout_constraintStart_toStartOf="@+id/iv_om_seal"
+        app:layout_constraintTop_toTopOf="@+id/iv_om_seal" />
+
+    <ImageView
+        android:id="@+id/iv_om_seal"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/lore_portal_title"
+        android:src="@drawable/ic_om_symbol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lore_portal_title"
+        android:textColor="@color/vedic_gold"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_om_seal" />
+
+    <TextView
+        android:id="@+id/tv_app_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/lore_portal_subtitle"
+        android:textColor="@color/parchment_secondary"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_app_title" />
+
+    <!-- Main Card Container -->
+    <LinearLayout
+        android:id="@+id/card_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_vedic_card"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_app_subtitle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lore_portal_description"
+            android:textColor="@color/parchment_secondary"
+            android:textSize="13sp"
+            android:lineSpacingExtra="3dp" />
+
+        <EditText
+            android:id="@+id/et_incantation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_input_field"
+            android:hint="@string/hint_passcode"
+            android:inputType="text"
+            android:paddingHorizontal="14dp"
+            android:textColor="@color/parchment_text"
+            android:textColorHint="@color/parchment_muted"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_resurrect"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_vedic_button"
+            android:text="@string/btn_invoke_knowledge"
+            android:textColor="@color/ashrama_dark_bg"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_last_login_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/parchment_muted"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_input" />
+
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/lore_footer_attribution"
+        android:textColor="@color/parchment_muted"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

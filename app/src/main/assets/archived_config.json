@@ -1,0 +1,30 @@
+{
+  "archive_version": "2.4.1",
+  "client_id": "SANJIVANI_MOBILE_ASHRAMA",
+  "environment": "production_hermetic",
+  "sync_interval_seconds": 1800,
+  "max_cached_records": 500,
+  "encryption_mode": "GCM_HARDENED",
+  "telemetry": {
+    "enabled": false,
+    "flush_threshold": 50,
+    "endpoint": "https://telemetry.sanjivani-internal.org/v1/event"
+  },
+  "modules": [
+    {
+      "name": "core_archive",
+      "version": "1.8.0",
+      "status": "ACTIVE"
+    },
+    {
+      "name": "sanskrit_nlp_indexer",
+      "version": "0.9.4",
+      "status": "STANDBY"
+    },
+    {
+      "name": "tamper_protection",
+      "version": "3.1.2",
+      "status": "ENFORCING"
+    }
+  ]
+}

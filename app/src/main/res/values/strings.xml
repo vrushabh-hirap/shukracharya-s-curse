@@ -1,0 +1,27 @@
+<resources>
+    <!-- App name as distributed to participants -->
+    <string name="app_name">Sanjivani</string>
+
+    <!-- Authentication / Login Portal -->
+    <string name="lore_portal_title">॥ संजीवनी विद्या पीठम् ॥</string>
+    <string name="lore_portal_subtitle">Sacred Archival Repository of Sage Shukracharya</string>
+    <string name="lore_portal_description">Enter the secret seed invocation to access the classified ashrama manuscripts.</string>
+    <string name="hint_passcode">Enter invocation phrase or key…</string>
+    <string name="btn_invoke_knowledge">Unseal Sanctum</string>
+    <string name="lore_last_invocation">Last sanctuary access: %s</string>
+    <string name="lore_footer_attribution">Bhrigu Samhita • Preserved across Yugas</string>
+
+    <!-- Secret Activity / Restricted Archive -->
+    <string name="vault_classification_header">॥ RESTRICTED ARCHIVAL MANUSCRIPT ॥</string>
+    <string name="vault_document_tag">SEAL ID: MS-SAN-0091-REV3</string>
+    <string name="vault_sealed_cipher_label">Fragment A Sealed Ciphertext Blob (Hex)</string>
+    <string name="vault_instruction">Present the candidate key sequence to dissolve the nine protective seals:</string>
+    <string name="hint_candidate">Enter candidate key sequence…</string>
+    <string name="btn_verify_seal">Dissolve Seals</string>
+    <string name="btn_copy_hex">Copy Hex Blob</string>
+    <string name="lore_seal_warning">Warning: Unauthorized tampering with Mrita-Sanjivani mantras triggers automatic seal annihilation.</string>
+
+    <!-- Telemetry & Status -->
+    <string name="status_offline_mode">Ashrama Offline Mode</string>
+    <string name="status_tamper_shield_active">Integrity Shield: Active</string>
+</resources>

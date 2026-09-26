@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Deep Vedic Dark Palette -->
+    <color name="ashrama_dark_bg">#0D0B0E</color>
+    <color name="ashrama_card_surface">#18141D</color>
+    <color name="ashrama_card_stroke">#3D314A</color>
+    <color name="ashrama_surface_elevated">#221D2A</color>
+
+    <!-- Gold & Amber Accents -->
+    <color name="vedic_gold">#E5C158</color>
+    <color name="vedic_gold_dark">#B38F2E</color>
+    <color name="vedic_gold_glow">#40E5C158</color>
+    <color name="amber_glow">#FFB300</color>
+
+    <!-- Text Hierarchy -->
+    <color name="parchment_text">#F5EEDB</color>
+    <color name="parchment_secondary">#ABA0B5</color>
+    <color name="parchment_muted">#6E6578</color>
+
+    <!-- Status & Classification Badges -->
+    <color name="badge_public">#4CAF50</color>
+    <color name="badge_restricted">#FF9800</color>
+    <color name="badge_sealed">#E91E63</color>
+    <color name="badge_forbidden">#9C27B0</color>
+    <color name="status_error">#EF5350</color>
+    <color name="status_success">#66BB6A</color>
+</resources>

@@ -1,0 +1,14 @@
+SANJIVANI ARCHAEOLOGICAL CLIENT - DIAGNOSTIC REPORT
+=====================================================
+Build Timestamp: 2026-09-24 00:00:00 UTC
+Architecture: AArch64 / ARMv8-A + NEON
+Crypto Providers: BC / OpenSSL-NDK-Shim
+Integrity Engine: Active (v3.2)
+Database Version: 3 (SQLite 3.39)
+Hermetic Sync Status: Offline Loopback Emulation Active
+
+Diagnostics:
+- Cache allocation: OK (64 MB bounded)
+- Thread pool: 4 workers active
+- JNI bridge latency: < 0.2ms
+- Text pipeline: Initialized

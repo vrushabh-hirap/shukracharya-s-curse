@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ShukracharyasCurse" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/ashrama_dark_bg</item>
+        <item name="android:textColorPrimary">@color/parchment_text</item>
+        <item name="android:textColorSecondary">@color/parchment_secondary</item>
+        <item name="colorPrimary">@color/vedic_gold</item>
+        <item name="colorOnPrimary">@color/ashrama_dark_bg</item>
+        <item name="colorSecondary">@color/amber_glow</item>
+        <item name="colorSurface">@color/ashrama_card_surface</item>
+        <item name="colorOnSurface">@color/parchment_text</item>
+    </style>
+
+    <style name="Theme.ShukracharyasCurse" parent="Base.Theme.ShukracharyasCurse" />
+</resources>

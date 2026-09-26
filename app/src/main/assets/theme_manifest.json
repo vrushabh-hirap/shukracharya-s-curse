@@ -1,0 +1,30 @@
+{
+  "theme_version": 2,
+  "default_theme": "DARK_VEDIC",
+  "themes": [
+    {
+      "id": "DARK_VEDIC",
+      "display_name": "Dark Vedic Ashrama",
+      "primary": "#E5C158",
+      "background": "#0D0B0E",
+      "surface": "#18141D",
+      "accent": "#FFB300"
+    },
+    {
+      "id": "OBSIDIAN",
+      "display_name": "Obsidian Temple",
+      "primary": "#D4AF37",
+      "background": "#050505",
+      "surface": "#121212",
+      "accent": "#E65100"
+    },
+    {
+      "id": "PARCHMENT",
+      "display_name": "Ancient Palm Leaf",
+      "primary": "#8C6D23",
+      "background": "#F5EEDB",
+      "surface": "#EAE0C8",
+      "accent": "#5D4037"
+    }
+  ]
+}

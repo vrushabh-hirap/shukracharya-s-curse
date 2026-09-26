@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<archiveManifest version="4.2" timestamp="1758672000" sealed="true">
+    <repository title="Bhrigu Ashrama Sacred Library" jurisdiction="Daitya Mandala">
+        <manuscript id="MS-001" classification="PUBLIC">
+            <title>Rigvedic Ushas Hymns</title>
+            <author>Vamadeva</author>
+            <checksum>983210FA</checksum>
+        </manuscript>
+        <manuscript id="MS-002" classification="RESTRICTED">
+            <title>Lineage of the Fire Sages</title>
+            <author>Chyavana</author>
+            <checksum>B18834E0</checksum>
+        </manuscript>
+        <manuscript id="MS-003" classification="SEALED">
+            <title>Treatise on Mrita-Sanjivani Vidya</title>
+            <author>Ushanas</author>
+            <checksum>E94A1C02</checksum>
+        </manuscript>
+        <manuscript id="MS-004" classification="FORBIDDEN">
+            <title>Sigils of the Nine Planetary Gates</title>
+            <author>Shukracharya</author>
+            <checksum>FF09B42A</checksum>
+        </manuscript>
+    </repository>
+</archiveManifest>

@@ -1,0 +1,18 @@
+{
+  "manifest_id": "SANJIVANI_V1_LEGACY",
+  "generated_at": 1727136000,
+  "records": [
+    {
+      "id": "MS-001",
+      "status": "ARCHIVED",
+      "hash_algorithm": "CRC32",
+      "hash": "4A12B890"
+    },
+    {
+      "id": "MS-002",
+      "status": "ARCHIVED",
+      "hash_algorithm": "CRC32",
+      "hash": "88E1F002"
+    }
+  ]
+}
